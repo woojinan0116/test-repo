@@ -1,3 +1,5 @@
+안우진 202402678 컴퓨터공학부
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <cstring>
@@ -213,7 +215,7 @@ int main() {
 
     cout << " --- Harder Mode --- " << endl;
     for (int i = 0; i < 3; i++) {
-        monsters[i]->increaseAttackPower(2); // ���ݷ� +2
+        monsters[i]->increaseAttackPower(2); // °ø°Ý·Â +2
     }
 
     Item* healthPotion = new Item("Health Potion", 20, true);
